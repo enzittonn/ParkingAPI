@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "totalFeatures": 4,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LTFR_P_BUSS.300381",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.052539,
+            59.32714
+          ],
+          [
+            18.051921,
+            59.327082
+          ],
+          [
+            18.050604,
+            59.32697
+          ]
+        ]
+      },
+      "geometry_name": "GEOMETRY",
+      "properties": {
+        "FID": 300381,
+        "FEATURE_OBJECT_ID": 14865812,
+        "FEATURE_VERSION_ID": 1,
+        "EXTENT_NO": 2,
+        "VALID_FROM": "2017-11-29T23:00:00Z",
+        "START_TIME": 600,
+        "END_TIME": 0,
+        "START_WEEKDAY": "fredag",
+        "MAX_HOURS": 1,
+        "CITATION": "0180 2017-09118",
+        "STREET_NAME": "Norr Mälarstrand",
+        "CITY_DISTRICT": "Kungsholmen",
+        "PARKING_DISTRICT": "Kungsholmen",
+        "ADDRESS": "Hantverkargatan 3C - Hantverkargatan 3G",
+        "VF_PLATS_TYP": "Reserverad p-plats buss",
+        "OTHER_INFO": "Servicetid fredag 00:00-06:00",
+        "RDT_URL": "https://rdt.transportstyrelsen.se/rdt/AF06_View.aspx?BeslutsMyndighetKod=0180&BeslutadAr=2017&LopNr=09118"
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

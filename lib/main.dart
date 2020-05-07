@@ -10,15 +10,7 @@ void main() {
   runApp(MyApp());
 }
 
-Future<ParkingSpace> fetchParkingSpace() async {
-  final response = await http.get('https://openparking.stockholm.se/LTF-Tolken/v1/pbuss/within?radius=100&lat=59.32784&lng=18.05306&outputFormat=json&apiKey=c9e27b4b-e374-41b5-b741-00b90cbe2d97');
 
-  if (response == 200) {
-    return ParkingSpace.fromJson(json.decode(response.body));
-  } else {
-    throw Exception('Failed to fetch the data!');
-  }
-}
 
 class MyApp extends StatelessWidget {
   @override
@@ -44,7 +36,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  Future<ParkingSpace> futureParkingSpace;
+  Future<Parkering> futureParkingSpace;
 
   @override
   void initState() {
